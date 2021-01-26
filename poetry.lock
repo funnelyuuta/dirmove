@@ -1,0 +1,34 @@
+[[package]]
+name = "click"
+version = "7.1.2"
+description = "Composable command line interface toolkit"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "tqdm"
+version = "4.56.0"
+description = "Fast, Extensible Progress Meter"
+category = "main"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
+
+[package.extras]
+dev = ["py-make (>=0.1.0)", "twine", "wheel"]
+telegram = ["requests"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = ">=3.7"
+content-hash = "f17db35ee0a6b939565e5cdf5ab38773c832d5bb3cd7d18984785f943456bf10"
+
+[metadata.files]
+click = [
+    {file = "click-7.1.2-py2.py3-none-any.whl", hash = "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"},
+    {file = "click-7.1.2.tar.gz", hash = "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a"},
+]
+tqdm = [
+    {file = "tqdm-4.56.0-py2.py3-none-any.whl", hash = "sha256:4621f6823bab46a9cc33d48105753ccbea671b68bab2c50a9f0be23d4065cb5a"},
+    {file = "tqdm-4.56.0.tar.gz", hash = "sha256:fe3d08dd00a526850568d542ff9de9bbc2a09a791da3c334f3213d8d0bbbca65"},
+]

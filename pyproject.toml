@@ -7,8 +7,13 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.7"
+tqdm = "^4.56.0"
+click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+dirmove = "dirmove.main:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
